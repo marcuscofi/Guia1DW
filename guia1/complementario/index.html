@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad | Mi serie favorita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Hoja de estilo externa -->
+    <link rel="stylesheet" href="css/serie.css">
+</head>
+<body>
+
+    <!-- Menú (los enlaces usan los id de cada sección) -->
+    <nav class="menu">
+        <a href="#sinopsis">Sinopsis</a>
+        <a href="#personajes">Personajes</a>
+        <a href="#temporadas">Temporadas</a>
+        <a href="#frases">Frases</a>
+        <a href="#ficha">Ficha técnica</a>
+    </nav>
+
+    <header id="inicio" class="portada">
+        <img src="../../assets/img/breaking-bad-logo.svg" alt="Logo Br Ba de Breaking Bad" class="portada-logo">
+        <h1 class="titulo-serie">Breaking Bad</h1>
+        <p class="lema">Cuando la química cambia a un hombre,<br>nada vuelve a ser igual.</p>
+    </header>
+
+    <main>
+
+        <section id="sinopsis" class="bloque">
+            <h2 class="titulo-seccion">Sinopsis</h2>
+            <p>Walter White es un profesor de química de secundaria en Albuquerque, Nuevo México. Su vida cambia cuando le diagnostican un cáncer de pulmón. Con poco dinero y una familia que mantener, decide asociarse con Jesse Pinkman, un antiguo alumno, para fabricar metanfetamina.</p>
+            <p id="destacado">Lo que empieza como una decisión desesperada se convierte en la transformación de un hombre común en Heisenberg.</p>
+            <p>La serie combina drama, humor negro y suspenso, y destaca por su guion, su fotografía y por la manera en que cada decisión tiene consecuencias.</p>
+        </section>
+
+        <section id="personajes" class="bloque">
+            <h2 class="titulo-seccion">Personajes principales</h2>
+            <div class="tarjetas">
+
+                <article class="tarjeta">
+                    <img src="../../assets/img/walter-white.svg" alt="Walter White" class="foto">
+                    <h3 class="nombre">Walter White</h3>
+                    <p class="actor">Bryan Cranston</p>
+                    <p class="descripcion">Profesor de química<br>que se convierte en Heisenberg.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="../../assets/img/jesse-pinkman.svg" alt="Jesse Pinkman" class="foto">
+                    <h3 class="nombre">Jesse Pinkman</h3>
+                    <p class="actor">Aaron Paul</p>
+                    <p class="descripcion">Exalumno de Walter<br>y su socio en el negocio.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="../../assets/img/saul-goodman.svg" alt="Saul Goodman" class="foto">
+                    <h3 class="nombre">Saul Goodman</h3>
+                    <p class="actor">Bob Odenkirk</p>
+                    <p class="descripcion">Abogado de oficina llamativa<br>y soluciones creativas.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="../../assets/img/gus-fring.svg" alt="Gus Fring" class="foto">
+                    <h3 class="nombre">Gus Fring</h3>
+                    <p class="actor">Giancarlo Esposito</p>
+                    <p class="descripcion">Dueño de Los Pollos Hermanos<br>y rival calculador.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="../../assets/img/hank-schrader.svg" alt="Hank Schrader" class="foto">
+                    <h3 class="nombre">Hank Schrader</h3>
+                    <p class="actor">Dean Norris</p>
+                    <p class="descripcion">Agente de la DEA<br>y cuñado de Walter.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="temporadas" class="bloque">
+            <h2 class="titulo-seccion">Temporadas</h2>
+            <table class="tabla-temporadas">
+                <thead>
+                    <tr>
+                        <th>Temporada</th>
+                        <th>Año</th>
+                        <th>Episodios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>2008</td><td>7</td></tr>
+                    <tr><td>2</td><td>2009</td><td>13</td></tr>
+                    <tr><td>3</td><td>2010</td><td>13</td></tr>
+                    <tr><td>4</td><td>2011</td><td>13</td></tr>
+                    <tr><td>5</td><td>2012 - 2013</td><td>16</td></tr>
+                </tbody>
+            </table>
+            <p class="nota">Total: 62 episodios en 5 temporadas.</p>
+        </section>
+
+        <section id="frases" class="bloque">
+            <h2 class="titulo-seccion">Frases memorables</h2>
+            <blockquote class="frase">"Say my name."<br><span class="autor-frase">Walter White</span></blockquote>
+            <blockquote class="frase">"I am the one who knocks."<br><span class="autor-frase">Walter White</span></blockquote>
+            <blockquote class="frase">"Yeah, science!"<br><span class="autor-frase">Jesse Pinkman</span></blockquote>
+        </section>
+
+        <section id="ficha" class="bloque">
+            <h2 class="titulo-seccion">Ficha técnica</h2>
+            <p class="dato"><strong>Creador:</strong> Vince Gilligan</p>
+            <p class="dato"><strong>Canal:</strong> AMC</p>
+            <p class="dato"><strong>Emisión:</strong> del 20 de enero de 2008 al 29 de septiembre de 2013</p>
+            <p class="dato"><strong>Ambientación:</strong> Albuquerque, Nuevo México</p>
+            <p class="dato"><strong>Derivados:</strong> Better Call Saul (2015 - 2022) y la película El Camino (2019)</p>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <p>Página creada para la Guía de Laboratorio Nº 1, Desarrollo Web I.</p>
+        <p><a href="../../index.html">← Volver al repositorio</a></p>
+    </footer>
+
+</body>
+</html>

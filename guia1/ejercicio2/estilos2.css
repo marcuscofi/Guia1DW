@@ -1,0 +1,66 @@
+/* estilos2.css
+   Ejercicio 2 (versión externa): las reglas que estaban dentro de la
+   etiqueta <style> de ejemplo2.html, movidas a un archivo CSS enlazado
+   con <link rel="stylesheet" href="estilos2.css">. */
+
+/* Paso 6: fondo gris claro y tipografía Arial / sans-serif para todo el sitio */
+body {
+    background-color: #E0E0E0;
+    font-family: Arial, sans-serif;
+}
+
+/* Paso 7: encabezado h1 con fondo azul, letra blanca y centrado */
+h1 {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+}
+
+/* Paso 8: div "contenido" centrado y ocupando el 80% de la pantalla */
+div.contenido {
+    margin: 0 auto; /* centrando la caja */
+    width: 80%;
+}
+
+/* Paso 9: texto de los párrafos con 18 píxeles */
+p {
+    font-size: 18px;
+}
+
+/* Paso 10: elementos con clase "cuento" en color navy y justificado */
+.cuento {
+    color: navy;
+    text-align: justify;
+}
+
+/* Paso 11: una tipografía distinta para cada párrafo del contenido */
+.parrafo1 {
+    font-family: "Courier New", monospace;
+}
+
+.parrafo2 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.parrafo3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Paso 12: todo el div "autor" en cursiva y sus párrafos a 14px */
+div.autor {
+    font-style: italic;
+}
+
+p.gilligan {
+    font-size: 14px;
+}
+
+/*
+   Respuestas a las preguntas de la guía:
+   - Paso 11: cada párrafo del div "contenido" cambia de tipografía:
+     parrafo1 -> Courier New (monoespaciada), parrafo2 -> Verdana
+     (sans-serif) y parrafo3 -> Georgia (serif).
+   - Paso 12: div.autor pone en cursiva todo el contenido del div con
+     clase "autor"; p.gilligan afecta únicamente a los dos párrafos con
+     clase "gilligan" (dentro de ese div) y los reduce a 14px.
+*/

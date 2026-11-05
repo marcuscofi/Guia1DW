@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Saul Goodman">
+<rect width="400" height="300" fill="#0d1210"/>
+<rect x="110" y="30" width="180" height="200" rx="6" fill="#d9a400" stroke="#1a1a1a" stroke-width="4"/>
+<text x="124" y="62" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#1a1a1a">76</text>
+<text x="200" y="165" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="96" font-weight="700" fill="#1a1a1a">Sg</text>
+<text x="200" y="205" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#1a1a1a">Saul Goodman</text>
+<text x="200" y="264" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3" fill="#8fa89a">ABOGADO</text>
+</svg>

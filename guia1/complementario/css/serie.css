@@ -1,0 +1,218 @@
+/* serie.css - Ejercicio complementario: Breaking Bad
+   Usa selectores de etiqueta, de clase y de id. */
+
+/* ---------- Selector universal ---------- */
+* {
+    box-sizing: border-box;
+}
+
+/* ---------- Selectores de etiqueta ---------- */
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    background-color: #0d1210;
+    color: #dfe9e2;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', Impact, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.05rem;
+}
+
+a {
+    color: #f2c200;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Menú ---------- */
+.menu {
+    background-color: #000000;
+    text-align: center;
+    padding: 14px 10px;
+    border-bottom: 3px solid #f2c200;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 14px;
+    color: #dfe9e2;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.12em;
+}
+
+.menu a:hover {
+    color: #f2c200;
+    text-decoration: none;
+}
+
+/* ---------- Portada (id + clases) ---------- */
+#inicio {
+    background-color: #12261b;
+    text-align: center;
+    padding: 50px 20px 60px;
+}
+
+.portada-logo {
+    width: 80%;
+    max-width: 420px;
+    height: auto;
+}
+
+.titulo-serie {
+    font-size: 5.5rem;
+    color: #f2c200;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.lema {
+    font-size: 1.25rem;
+    color: #8fe3ae;
+    font-style: italic;
+}
+
+/* ---------- Bloques de contenido ---------- */
+.bloque {
+    width: 90%;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 50px 0 10px;
+}
+
+.titulo-seccion {
+    font-size: 2.6rem;
+    color: #4cc27a;
+    border-bottom: 2px solid #1f7a3d;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Selector de id: un único párrafo destacado */
+#destacado {
+    background-color: #f2c200;
+    color: #0d1210;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 18px;
+    border-radius: 4px;
+}
+
+/* ---------- Tarjetas de personajes ---------- */
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #16231b;
+    border: 1px solid #2e4a3a;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nombre {
+    font-size: 1.8rem;
+    color: #f2c200;
+    margin-top: 10px;
+}
+
+.actor {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #8fa89a;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.descripcion {
+    font-size: 0.95rem;
+    margin: 8px 12px 0;
+}
+
+/* ---------- Tabla de temporadas ---------- */
+.tabla-temporadas {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-temporadas th,
+.tabla-temporadas td {
+    border: 1px solid #2e4a3a;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-temporadas th {
+    background-color: #1f7a3d;
+    color: white;
+}
+
+.nota {
+    color: #8fa89a;
+    font-size: 0.9rem;
+}
+
+/* ---------- Frases ---------- */
+.frase {
+    margin: 0 0 18px;
+    padding: 10px 20px;
+    border-left: 5px solid #f2c200;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.autor-frase {
+    font-size: 0.9rem;
+    font-style: normal;
+    color: #4cc27a;
+}
+
+/* ---------- Ficha técnica ---------- */
+.dato {
+    margin: 6px 0;
+}
+
+.dato strong {
+    color: #f2c200;
+}
+
+/* ---------- Pie ---------- */
+.pie {
+    margin-top: 50px;
+    padding: 24px 10px;
+    text-align: center;
+    background-color: #000000;
+    color: #8fa89a;
+    font-size: 0.9rem;
+}
+
+.pie p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .titulo-serie { font-size: 3.6rem; }
+    .menu a { margin: 0 8px; }
+}

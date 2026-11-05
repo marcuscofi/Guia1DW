@@ -1,0 +1,45 @@
+/* estilos1.css
+   Ejercicio 1 (versión externa): las mismas reglas que antes estaban
+   embebidas en cada etiqueta, ahora centralizadas en una sola hoja. */
+
+/* Antes: <body style="background-color: lightblue"> */
+body {
+    background-color: lightblue;
+}
+
+/* Antes: <div style="font-size:20px;"> */
+.contenedor {
+    font-size: 20px;
+}
+
+/* Antes: <h2 style="text-decoration: underline; color: white;"> */
+h2 {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Primer párrafo: color navy (como en el original) y negrita */
+.negrita {
+    color: navy;
+    font-weight: bold;
+}
+
+/* Segundo párrafo: mayúsculas y justificado */
+.mayusculas {
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+/* Tercer párrafo: 12 píxeles */
+.pequeno {
+    font-size: 12px;
+}
+
+/* Cursivas dentro del tercer párrafo */
+.cursiva {
+    font-style: italic;
+}
+
+.volver {
+    font-size: 14px;
+}
